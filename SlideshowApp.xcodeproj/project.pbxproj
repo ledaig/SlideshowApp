@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD2BA351270945310014D696 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BA350270945310014D696 /* ZoomViewController.swift */; };
+		DDD5AA3A270D3D25009E0B68 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD5AA34270D3D25009E0B68 /* 5.png */; };
+		DDD5AA3B270D3D25009E0B68 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD5AA35270D3D25009E0B68 /* 6.png */; };
+		DDD5AA3C270D3D25009E0B68 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD5AA36270D3D25009E0B68 /* 1.jpg */; };
+		DDD5AA3D270D3D25009E0B68 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD5AA37270D3D25009E0B68 /* 3.png */; };
+		DDD5AA3E270D3D25009E0B68 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD5AA38270D3D25009E0B68 /* 2.jpg */; };
+		DDD5AA3F270D3D25009E0B68 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD5AA39270D3D25009E0B68 /* 4.png */; };
 		DDFF03422703EAE800ACCB2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF03412703EAE800ACCB2A /* AppDelegate.swift */; };
 		DDFF03442703EAE800ACCB2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF03432703EAE800ACCB2A /* SceneDelegate.swift */; };
 		DDFF03462703EAE800ACCB2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF03452703EAE800ACCB2A /* ViewController.swift */; };
 		DDFF03492703EAE800ACCB2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFF03472703EAE800ACCB2A /* Main.storyboard */; };
 		DDFF034B2703EAEA00ACCB2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFF034A2703EAEA00ACCB2A /* Assets.xcassets */; };
 		DDFF034E2703EAEA00ACCB2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFF034C2703EAEA00ACCB2A /* LaunchScreen.storyboard */; };
-		DDFF035B2703EE1500ACCB2A /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFF03552703EE1500ACCB2A /* 4.png */; };
-		DDFF035C2703EE1500ACCB2A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDFF03562703EE1500ACCB2A /* 1.jpg */; };
-		DDFF035D2703EE1500ACCB2A /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDFF03572703EE1500ACCB2A /* 2.jpg */; };
-		DDFF035E2703EE1500ACCB2A /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFF03582703EE1500ACCB2A /* 3.png */; };
-		DDFF035F2703EE1500ACCB2A /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFF03592703EE1500ACCB2A /* 6.png */; };
-		DDFF03602703EE1500ACCB2A /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFF035A2703EE1500ACCB2A /* 5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD2BA350270945310014D696 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		DDD5AA34270D3D25009E0B68 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = ../../../pic/5.png; sourceTree = "<group>"; };
+		DDD5AA35270D3D25009E0B68 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6.png; path = ../../../pic/6.png; sourceTree = "<group>"; };
+		DDD5AA36270D3D25009E0B68 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../pic/1.jpg; sourceTree = "<group>"; };
+		DDD5AA37270D3D25009E0B68 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = ../../../pic/3.png; sourceTree = "<group>"; };
+		DDD5AA38270D3D25009E0B68 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../pic/2.jpg; sourceTree = "<group>"; };
+		DDD5AA39270D3D25009E0B68 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = ../../../pic/4.png; sourceTree = "<group>"; };
 		DDFF033E2703EAE800ACCB2A /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFF03412703EAE800ACCB2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDFF03432703EAE800ACCB2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,12 +38,6 @@
 		DDFF034A2703EAEA00ACCB2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDFF034D2703EAEA00ACCB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDFF034F2703EAEA00ACCB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDFF03552703EE1500ACCB2A /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = ../../../pic/4.png; sourceTree = "<group>"; };
-		DDFF03562703EE1500ACCB2A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../pic/1.jpg; sourceTree = "<group>"; };
-		DDFF03572703EE1500ACCB2A /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../pic/2.jpg; sourceTree = "<group>"; };
-		DDFF03582703EE1500ACCB2A /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = ../../../pic/3.png; sourceTree = "<group>"; };
-		DDFF03592703EE1500ACCB2A /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6.png; path = ../../../pic/6.png; sourceTree = "<group>"; };
-		DDFF035A2703EE1500ACCB2A /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = ../../../pic/5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,16 +73,17 @@
 				DDFF03412703EAE800ACCB2A /* AppDelegate.swift */,
 				DDFF03432703EAE800ACCB2A /* SceneDelegate.swift */,
 				DDFF03452703EAE800ACCB2A /* ViewController.swift */,
+				DD2BA350270945310014D696 /* ZoomViewController.swift */,
 				DDFF03472703EAE800ACCB2A /* Main.storyboard */,
 				DDFF034A2703EAEA00ACCB2A /* Assets.xcassets */,
 				DDFF034C2703EAEA00ACCB2A /* LaunchScreen.storyboard */,
 				DDFF034F2703EAEA00ACCB2A /* Info.plist */,
-				DDFF03562703EE1500ACCB2A /* 1.jpg */,
-				DDFF03572703EE1500ACCB2A /* 2.jpg */,
-				DDFF03582703EE1500ACCB2A /* 3.png */,
-				DDFF03552703EE1500ACCB2A /* 4.png */,
-				DDFF035A2703EE1500ACCB2A /* 5.png */,
-				DDFF03592703EE1500ACCB2A /* 6.png */,
+				DDD5AA36270D3D25009E0B68 /* 1.jpg */,
+				DDD5AA38270D3D25009E0B68 /* 2.jpg */,
+				DDD5AA37270D3D25009E0B68 /* 3.png */,
+				DDD5AA39270D3D25009E0B68 /* 4.png */,
+				DDD5AA34270D3D25009E0B68 /* 5.png */,
+				DDD5AA35270D3D25009E0B68 /* 6.png */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -142,15 +145,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDD5AA3F270D3D25009E0B68 /* 4.png in Resources */,
 				DDFF034E2703EAEA00ACCB2A /* LaunchScreen.storyboard in Resources */,
-				DDFF035D2703EE1500ACCB2A /* 2.jpg in Resources */,
-				DDFF035C2703EE1500ACCB2A /* 1.jpg in Resources */,
-				DDFF035B2703EE1500ACCB2A /* 4.png in Resources */,
-				DDFF035F2703EE1500ACCB2A /* 6.png in Resources */,
-				DDFF035E2703EE1500ACCB2A /* 3.png in Resources */,
+				DDD5AA3A270D3D25009E0B68 /* 5.png in Resources */,
 				DDFF034B2703EAEA00ACCB2A /* Assets.xcassets in Resources */,
-				DDFF03602703EE1500ACCB2A /* 5.png in Resources */,
+				DDD5AA3C270D3D25009E0B68 /* 1.jpg in Resources */,
 				DDFF03492703EAE800ACCB2A /* Main.storyboard in Resources */,
+				DDD5AA3D270D3D25009E0B68 /* 3.png in Resources */,
+				DDD5AA3E270D3D25009E0B68 /* 2.jpg in Resources */,
+				DDD5AA3B270D3D25009E0B68 /* 6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +167,7 @@
 				DDFF03462703EAE800ACCB2A /* ViewController.swift in Sources */,
 				DDFF03422703EAE800ACCB2A /* AppDelegate.swift in Sources */,
 				DDFF03442703EAE800ACCB2A /* SceneDelegate.swift in Sources */,
+				DD2BA351270945310014D696 /* ZoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

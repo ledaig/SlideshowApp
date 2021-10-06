@@ -25,11 +25,19 @@ class ViewController: UIViewController {
         let sampleImage = UIImage(named: imageName[lc])
         image.image = sampleImage
         
-        image.isUserInteractionEnabled = true
-        image.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapped)))
+    
 
     }
-    @objc func tapped() {
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let zoomViewController:ZoomViewController = segue.destination as! ZoomViewController
+        // 遷移先のResultViewControllerで宣言しているnameに入力された名前を渡す。
+    
+        zoomViewController.zoom_lc = lc
+
+    }
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {
     }
     
     @objc func updateTimer(_ timer: Timer) {
@@ -41,6 +49,7 @@ class ViewController: UIViewController {
         image.image = sampleImage
     }
     
+ 
     @IBAction func backButton(_ sender: Any) {
         if (timer_switch == 0) {
             lc = lc - 1
@@ -70,6 +79,7 @@ class ViewController: UIViewController {
             self.timer.invalidate()
         }
     }
-
+    
 }
+
 
